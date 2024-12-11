@@ -29,8 +29,7 @@
     "lint": "eslint . --quiet",
     "test": "eslint . --quiet && jest",
     "test:coverage": "jest --coverage",
-    "test:watch": "jest --watch",
-    "postinstall": "node webpack/hacks/postinstall.js"
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "@ant-design/icons": "5.5.1",
